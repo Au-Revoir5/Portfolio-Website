@@ -1,0 +1,74 @@
+.timeline {
+  --timeline-cut: var(--bg);
+
+  max-width: 44rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-left: 1px solid var(--line);     
+}
+
+.timeline-item {
+  position: relative;
+  padding: 0 0 2.25rem 1.75rem;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 0.45rem;
+  left: -5px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--timeline-cut);
+}
+
+.timeline-period {
+  margin: 0 0 0.35rem;
+  color: var(--tok-string);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
+.timeline-item h3 {
+  font-size: 1.2rem;
+  color: var(--snow);
+}
+
+.timeline-degree {
+  margin: 0.2rem 0 0;
+  color: var(--text-soft);
+}
+
+.timeline-notes {
+  margin: 0.75rem 0 0;
+  padding: 0;
+  list-style: none;
+  color: var(--text-soft);
+  font-size: 0.98rem;
+}
+
+.timeline-notes li::before {
+  content: '// ';
+  color: var(--tok-comment);
+  font-family: var(--font-mono);
+}
+
+.timeline-window {
+  max-width: 44rem;
+}
+
+.window-body {
+  padding: 1.5rem 1.5rem 1.75rem;
+}
+
+/* Inside a window, the background is the panel color, not the page color */
+.window-body .timeline {
+  --timeline-cut: var(--panel);
+}
