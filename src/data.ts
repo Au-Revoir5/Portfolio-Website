@@ -41,7 +41,7 @@ export const profile: Profile = {
 }
 
 export const about: string[] = [
-  "I'm a Computer Science student at BINUS University and a full stack developer who enjoys turning ideas into practical applications. I work with technologies like React, TypeScript, Laravel, and Flutter, and I'm always looking for opportunities to learn, build, and improve.",
+  "I'm a Computer Science student at BINUS University and a full stack developer who enjoys turning ideas into practical applications. I work with React, TypeScript, and Laravel, always looking for opportunities to learn, build, and improve.",
   'Outside of development, I enjoy hanging out with friends, gaming, and working on personal projects that let me experiment with new technologies.',
 ]
 
