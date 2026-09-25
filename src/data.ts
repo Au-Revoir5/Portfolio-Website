@@ -36,7 +36,7 @@ export const profile: Profile = {
   location: 'Jakarta',
   email: 'adhityakr275@gmail.com',
   github: 'Au-Revoir5',
-  linkedin: 'adhitya-kusuma-ridwan-571499326/',
+  linkedin: 'adhitya-kusuma-ridwan',
   stack: ['React', 'TypeScript', 'Laravel'],
 }
 
@@ -50,7 +50,7 @@ export const projects: Project[] = [
     file: 'Air-Hockey.tsx',
     title: 'Air Hockey',
     description:
-      'Webcam-based air hockey using MediaPipe hand tracking and an MLP gesture classifier. Players control the paddle with their index finger against AI..',
+      'Webcam-based air hockey using MediaPipe hand tracking and an MLP gesture classifier. Each players control the paddle with their index finger.',
     tags: ['Python', 'CV', 'MediaPipe'],
     repo: 'https://github.com/Au-Revoir5/Air-Hockey',
   },
